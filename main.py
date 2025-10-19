@@ -15,7 +15,6 @@ app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:3000",  # Para desarrollo local
     "https://main.d33pwtumsa1m60.amplifyapp.com",  # Tu dominio de Amplify
-    "https://*.amplifyapp.com"  # Wildcard para otros deploys de Amplify
 ])
 # Configurar Claude
 ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
