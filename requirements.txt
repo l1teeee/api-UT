@@ -1,4 +1,5 @@
-fastapi
+flask
+flask-cors
 uvicorn
 httpx
 python-dotenv
